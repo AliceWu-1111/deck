@@ -1,0 +1,140 @@
+/*
+* @Author: asus
+* @Date:   2017-07-29 09:02:02
+* @Last Modified by:   asus
+* @Last Modified time: 2017-08-11 16:49:58
+*/
+.c-three a:hover{
+	color:red;
+}
+.t-center li:nth-of-type(1) a{
+	color:red;
+}
+.content{
+	width: 100%;
+
+}
+.c-one{
+	width:1200px;
+	height:400px;
+	margin: 0px auto; 
+	overflow: hidden;
+}
+.concept {
+	width:108px;
+	margin:0px auto;
+	color:#000;
+	font-size: 24px;
+	text-align: center;
+	margin-top:55px;
+} 
+.one-line{
+	width:500px;
+	color:#000;
+	float:left;
+	margin-top: 80px;
+}
+.two-line{
+	width:500px;
+	color:#000;
+	float:right;
+	margin-top:-30px;
+}
+.introduction{
+	text-indent: 2em;
+	font-family: "微软雅黑";
+	line-height: 20px;
+	font-size:15px;
+}
+.c-two{
+	width:1200px;
+	height:800px;
+	margin: 0px auto;
+	background:#ececec; 
+	overflow: hidden; 
+}
+.lunbo-all{
+ 	width:1200px;
+ 	position: relative; 
+ 	overflow:hidden;
+} 
+.span1{
+	display: block;
+	position:absolute;
+	left:0;
+	top:50%;
+	margin-top:-90px;
+	cursor: pointer;
+	z-index: 1;
+}
+.span2{
+	display: block;
+	position:absolute;
+	right:0;
+	top:50%;
+	margin-top:-90px;
+	cursor: pointer;
+	z-index: 1;
+}
+.simple{
+	overflow:hidden;
+	position:relative;
+	width:2280px;
+
+}
+.simple li{
+	float:left;
+	margin-left:60px;
+	border: 1px solid #000;
+
+}
+.simple li img{
+	width:318px; 
+	height:343px; 
+}
+.simple li .price{
+	color:#666;
+	width:180px;
+	margin:50px auto;
+	text-align:center;
+	font-family:"微软雅黑";
+}
+.price .one{
+	text-decoration: line-through;
+}
+.price .two{
+	color:red;
+}
+.c-three{
+	width:1200px;
+	height:700px;
+	margin: 0px auto; 
+	overflow: hidden; 
+} 
+.c-three img{
+	float:left;
+}
+.text{
+	color:#666;
+	font-family:"微软雅黑";
+	line-height:30px;
+	width:1200px;
+	margin:0px auto;
+}
+.text a{
+	float:right;
+
+}
+
+
+
+
+
+
+
+
+ 
+
+
+
+

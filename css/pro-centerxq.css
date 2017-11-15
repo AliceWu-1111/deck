@@ -1,0 +1,135 @@
+/*
+* @Author: asus
+* @Date:   2017-07-29 17:02:41
+* @Last Modified by:   asus
+* @Last Modified time: 2017-08-14 17:45:05
+*/
+.a{
+	color:red;
+}
+.right a:hover{
+		color:red;
+}
+.t-center li:nth-of-type(3) a{
+	color:red;
+}
+.content{
+	width: 100%;
+	height:890px;
+	overflow: hidden;
+}
+.c-one{
+	width:1200px;
+	height:800px;
+	margin: 0px auto; 
+}
+.position{
+	margin-top:10px;
+	color: #666;
+
+}
+.position a{
+	color: #666;
+}
+.daohang{
+  width:260px;
+  float:left;
+  text-align:center;
+  margin-top:20px;
+}
+.daohang1{
+  width:260px;
+}
+.daohang1 p{
+  width:260px;
+  height:50px;
+  background:purple;
+  color:#fff;
+  line-height:50px;
+  font-size:15px;
+}
+hr{
+  width:260px;
+  margin:6px auto;
+  color:#666;
+}
+h5{
+  border-bottom:1px dashed #666;
+  margin-bottom:6px;
+  height:40px;
+
+}
+h5 a{
+  display: inline-block;
+  width:100%;
+  height:30px;
+  font-size:16px;
+  line-height:30px;
+  text-align:center;
+  color:#000;
+   background:url('../images/sprites css.png') no-repeat -30px -23px #ddd;
+}
+.daohang1 ul{
+  display:none;
+}
+.daohang1 ul li{
+  width:100%;
+  height:30px;
+  background:#ddd;
+  height:30px;
+  margin-bottom:6px;
+  color:#000;
+}
+
+.c-right{
+	width:900px;
+	height:600px;
+	background:pink;
+	float:right;
+
+}
+h3{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.left{
+	width:200px;
+	height:200px;
+	color:#000;
+}
+.right{
+	width:883px;
+	height:800px;
+	color:#000;
+	float:right;
+}
+h3{
+	text-align:center;
+	color:#666;
+}
+.right img{
+	float:left;
+	width:400px;
+}
+.right .f{
+	width:900px;
+	height:680px;
+	color:#666;
+	text-indent: 2em;
+}
+.small{
+	width:900px;
+	height:50px;
+	overflow: hidden;
+	text-align:right;
+	margin:100px auto;
+}
+.d{
+	
+	float:right;
+	color:#666;
+}
+
+
+
+

@@ -1,0 +1,173 @@
+/*
+* @Author: asus
+* @Date:   2017-07-29 17:02:41
+* @Last Modified by:   asus
+* @Last Modified time: 2017-08-14 17:44:58
+*/
+.a{
+	color:red;
+}
+.t-center li:nth-of-type(3) a{
+	color:red;
+}
+.content{
+	width: 100%;
+	height:890px;
+	overflow: hidden;
+}
+.c-one{
+	width:1200px;
+	height:800px;
+	margin: 0px auto; 
+}
+.position{
+	margin-top:10px;
+	color: #666;
+
+}
+.position a{
+	color: #666;
+}
+.daohang{
+  width:260px;
+  float:left;
+  text-align:center;
+  margin-top:20px;
+}
+.daohang1{
+  width:260px;
+}
+.daohang1 p{
+  width:260px;
+  height:50px;
+  background:purple;
+  color:#fff;
+  line-height:50px;
+  font-size:15px;
+}
+hr{
+  width:260px;
+  margin:6px auto;
+  color:#666;
+}
+h5{
+  border-bottom:1px dashed #666;
+  margin-bottom:6px;
+  height:40px;
+
+}
+h5 a{
+  display: inline-block;
+  width:100%;
+  height:30px;
+  font-size:16px;
+  line-height:30px;
+  text-align:center;
+  color:#000;
+   background:url('../images/sprites css.png') no-repeat -30px -23px #ddd;
+}
+.daohang1 ul{
+  display:none;
+}
+.daohang1 ul li{
+  width:100%;
+  height:30px;
+  background:#ddd;
+  height:30px;
+  margin-bottom:6px;
+  color:#000;
+}
+
+.c-right{
+	width:900px;
+	height:600px;
+	background:pink;
+	float:right;
+
+}
+h3{
+	margin-top:20px;
+	margin-bottom: 20px;
+}
+.left{
+	width:200px;
+	height:200px;
+	color:#000;
+}
+.right{
+	width:800px;
+	height:800px;
+	color:#000;
+	float:right;
+}
+.c-center ul li{
+	color:#000;
+}
+.product{
+	width:800px;
+	overflow:hidden;
+}
+.product li{
+	width:250px;
+	height:328px;
+	float:left;
+	border: 1px solid #666;
+	margin-left: 10px;
+	margin-top:10px;
+	color:#666;
+	position:relative;
+}
+.product li img{
+	width:90%;
+	margin-left:15px;
+	margin-top:10px;
+}
+.slide{
+	width:250px;
+	height:328px;
+	position:absolute;
+	top: 0px;
+	left:0px;
+	background:rgba(0,0,0,0.6);
+	text-align:center;
+	line-height:328px;
+	font-size:30px;
+	font-family: '微软雅黑';
+	display:none;
+}
+.slide a{
+	color:purple;
+}
+ .product li p{
+	margin:10px auto;
+}
+.product li span{
+	display: block;
+	float:right; 
+} 
+.page{
+	width:600px;
+	float:right;
+	margin-top:50px;
+	font-size: 10px;
+	text-align:center;
+}
+.page li{
+	width:50px;
+	height:20px;
+	float:left;
+	background:#eee;
+	margin-right: 20px;
+	text-align:center;
+	line-height:20px;
+}
+.page li a{
+	color:#000;
+ }
+ .page li:hover{
+ 	background:purple;
+}
+  .page li:nth-of-type(8){
+ 	background:purple;
+}
+

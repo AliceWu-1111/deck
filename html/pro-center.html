@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="../css/public.css">
+        <link rel="stylesheet" href="../css/pro-center.css">
+              <script src="../js/jquery-1.11.1.js"></script>
+        <script src='../js/public.js'></script>
+         <script>
+             $(function(){
+                 var num=0;
+              $('h5').click(function(event) {
+                    num=$(this).index('h5');
+                    if($('.title').eq(num).css('display')=='block'){
+                        $('h5').eq(num).children('a').css('background-position', '-32px -24px');
+                    }else{
+                        
+                        $('h5').eq(num).children('a').css('background-position', '-11px -46px');
+                    }
+                    $('.title').eq(num).stop().slideToggle(500).siblings('ul').slideUp(500);
+              }); 
+              $('.product li').hover(function() {
+                 $(this).children('.slide').stop().slideDown();
+              }, function() {
+                  $(this).children('.slide').stop().slideUp();
+              });     
+            })
+        </script>
+    
+    </head>
+    <body> 
+    	<div class="big">
+    		<div class="top">
+    			<div class="t-left"><img src="../images/index/logo.jpg" alt=""></div>
+    			<ul class="t-center">
+    				<li><a href="../index.html"  target="_blank">首页</a></li>
+    				<li><a href="introduction.html" target="_blank">公司介绍</a></li>
+    				<li><a href="javascript:void(0);"  target="_blank">产品中心</a></li>
+    				<li><a href="news-center.html"  target="_blank">新闻中心</a></li>
+    				<li><a href="contect-us.html"  target="_blank">联系我们</a></li>
+    			</ul>
+    			<div class="t-right">
+    				<span>2015年 11月11日</span>
+                    <span>星期五</span>
+                    <a href="javascript:void(0);">设为首页</a>
+                    <a href="javascript:void(0);">收藏本页</a>
+    			</div> 
+    			 <form action="">
+    				<input type="text" placeholder="搜索" class="form">
+    			</form>
+    		</div>
+    		<div class="banner">
+            <ul>
+                <li><img src="../images/index/banner01.jpg" alt=""></li>
+                <li><img src="../images/index/banner02.jpg" alt=""></li>
+                <li><img src="../images/index/banner03.jpg" alt=""></li>
+                <li><img src="../images/index/banner04.jpg" alt=""></li>
+                <li><img src="../images/index/banner05.jpg" alt=""></li>
+            </ul>
+            <ol>
+                <li class="current"></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+
+            </div>
+		<div class="content">
+			<div class="c-one">
+			<p class="position">您所在的位置：<a href="../html/index.html" target="_blank">首页</a> >> <span class="a">产品中心</span></p>
+			<div class="daohang">
+            <div class="daohang1">
+                <p>产品中心</p>
+                <hr>
+                <h5><a href="javascript:void(0);">护肤产品</a></h5>
+                <ul class="title">
+                        <li>精华液</li>
+                        <li>水乳</li>
+                        <li>隔离霜</li>
+                </ul>
+                <h5><a href="javascript:void(0);">彩妆中心</a></h5>
+                    <ul class="title">
+                        <li>生活彩妆</li>
+                        <li>舞台彩妆</li>
+                    </ul>
+            </div>
+            <div class="daohang1">
+                <p>销售热线</p>
+                <hr>
+                <h5><a href="javascript:void(0);">咨询销售</a></h5>
+                <ul class="title">
+                        <li>0728-4764018</li>
+                        <li>0728-4764018</li>
+                </ul>
+                <h5><a href="javascript:void(0);">售后服务热线</a></h5>
+                <ul class="title">
+                <li>0728-4764018</li>
+                <li>0728-4764018</li>
+                </ul>
+            </div>
+        </div>
+			<div class="right">
+				<h3>护肤产品</h3>
+                <ul class="product">
+                    <li>
+                        <div class="slide"><a href="javascript:void(0);">了解更多</a></div>
+                        <img src="../images/pro-center/chanpin04.jpg" alt="">
+                        <p>欧莱雅（LOREAL）雪颜科研致白祛斑精华液30ml改善肤质，均匀肤色</p>
+                        <span>1377条评论</span>
+                        
+                    </li>
+                    <li>
+                        <div class="slide"><a href="javascript:void(0);">了解更多</a></div>
+                        <img src="../images/pro-center/chanpin04.jpg" alt="">
+                        <p>欧莱雅（LOREAL）雪颜科研致白祛斑精华液30ml改善肤质，均匀肤色</p>
+                        <span>1377条评论</span>
+                        
+                    </li>
+                    <li>
+                        <div class="slide"><a href="javascript:void(0);">了解更多</a></div>
+                        <img src="../images/pro-center/chanpin04.jpg" alt="">
+                        <p>欧莱雅（LOREAL）雪颜科研致白祛斑精华液30ml改善肤质，均匀肤色</p>
+                        <span>1377条评论</span>
+                        
+                    </li>
+                    <li>
+                        <div class="slide"><a href="javascript:void(0);">了解更多</a></div>
+                        <img src="../images/pro-center/chanpin04.jpg" alt="">
+                        <p>欧莱雅（LOREAL）雪颜科研致白祛斑精华液30ml改善肤质，均匀肤色</p>
+                        <span>1377条评论</span>
+                        
+                    </li>
+                    <li>
+                        <div class="slide"><a href="javascript:void(0);">了解更多</a></div>
+                        <img src="../images/pro-center/chanpin04.jpg" alt="">
+                        <p>欧莱雅（LOREAL）雪颜科研致白祛斑精华液30ml改善肤质，均匀肤色</p>
+                        <span>1377条评论</span>
+                        
+                    </li>
+                    <li>
+                        <div class="slide"><a href="javascript:void(0);">了解更多</a></div>
+                        <img src="../images/pro-center/chanpin04.jpg" alt="">
+                        <p>欧莱雅（LOREAL）雪颜科研致白祛斑精华液30ml改善肤质，均匀肤色</p>
+                        <span>1377条评论</span>
+                        
+                    </li>
+                </ul>
+                 <ul class="page">
+                   <li><a href="javascript:void(0);">上一页</a></li>
+                   <li><a href="javascript:void(0);"><img src="../images/xiaobiao2.png" alt=""></a></li>
+                   <li><a href="javascript:void(0);">1</a></li>
+                   <li><a href="javascript:void(0);">2</a</li>
+                   <li><a href="javascript:void(0);">…</a></li>
+                   <li><a href="javascript:void(0);">10</a></li>
+                   <li><a href="javascript:void(0);"><img src="../images/xiaobiao1.png" alt=""></a></li>
+                   <li><a href="javascript:void(0);">最后一页</a></li>
+               </ul> 
+			</div>
+			</div>
+			
+		</div>
+
+    	
+
+
+
+
+    		<div class=bottom>
+                <div class="b-bottom">
+                    <div class="img"><img src="../images/index/wei.jpg" alt=""></div>
+                    <ul>
+                        <li><a href="javascript:void(0);" target="_blank">首页</a></li>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" target="_blank">公司介绍</a></li>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" target="_blank">产品中心</a></li>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" target="_blank">新闻中心</a></li>
+                        <li>|</li>
+                        <li><a href="javascript:void(0);" target="_blank">联系我们</a></li>
+                        <li>|</li>
+                    </ul>
+                    <div class="p">
+                    <p>Copyright &copy 2015 NiPic.com All Rights Reserved 版权所有•妆点尚品 粤IC备14012994号-1</p>
+                    <p>增值电信业务经营许可证 ：浙B2-20140103 本站法律顾问：陈明律师</p>
+                    <p>妆点尚品是网络服务平台方，若您发现您的权利被侵害，请发起消费者协会投诉</p> 
+                    </div>
+                </div>      
+            </div>
+    	</div>
+    </body>
+</html>
